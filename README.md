@@ -5,7 +5,7 @@ Several breadboards, voltage regulators, batteries, and other items were used so
 
 This project was a fantastic learning experience using software development, electrical engineering principals, and robotics! 
 
-Originally created April 2024.
+Originally created April 2024. Work continuing today.
 
 ## Objective
 The objective of this project was to take an old, Roomba 610 model with a broken motherboad, find a way to put a Raspberry Pi inside it, and use the Pi to control the Roomba. 
