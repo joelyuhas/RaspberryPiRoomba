@@ -25,15 +25,15 @@ This project had two main portions to it, the physical hardware setup and the so
 ### Physical Hardware Setup
 The following is a brief rundown of how the hardware was setup for this project.
 1. The roomba was torn down, deep cleaned, and put back together, removing the broken motherboad, dust bin motor, and primary brush rollers on the underside.
-   a. Removing the dust bin motor and brush motors left plenty of room for the Pi and other devices to be mounted internally.
+   - Removing the dust bin motor and brush motors left plenty of room for the Pi and other devices to be mounted internally.
 2. The old battery was replaced with a new battery.
 3. The Raspberry Pi, motor driver, and voltage regulators, were mounted in the cavity where the main roller brushes were previously located.
 4. The voltage regulator was used to step the battery voltage down from 14.8V to 5V so the Raspberry Pi, motor driver, and a few sensors could use it.
 5. The bumper IR sensors were connected to a bread board that was placed where the motherboard used to be in the roomba near the top.
-   a. To ensure the sensors worked, voltage dividing and pull down resistors were needed to interface with the IR sensors.
+   - To ensure the sensors worked, voltage dividing and pull down resistors were needed to interface with the IR sensors.
 6. Another voltae regulator was used to step down the Battery 14.8V to 9V for the wheel motors.
 7. The motor driver was connected to 9V voltage regulator and the wheel motors on the roomba.
-   a. The ports to the wheel motors had to be modified so that clean connections could be made to just the positive and negative terminals.   
+   - The ports to the wheel motors had to be modified so that clean connections could be made to just the positive and negative terminals.   
 8. The bread board for the bumper sensors, as well as the motor driver and command signals were all linked to the Pi's GPIO pins.
 9. A small, battery powered speaker was mounted in the Roomba dust bin cavity and connected to the Pi via an aux cable.
 
