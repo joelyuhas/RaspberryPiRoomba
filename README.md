@@ -8,7 +8,7 @@ This project was a fantastic learning experience using software development, ele
 ## Objective
 The objective of this project was to take an old, Roomba 610 model with a broken motherboad, find a way to put a Raspberry Pi inside it, and use the Pi to control the Roomba. 
 
-Ideally, the Roomba would be independent, meaning it could rely on an internal battery for power, read from specific sensors (like the bumper sensors), perform all its needed voltage regulation/amplification to control motors and sensors, and would only rely on an xbox controller for input.
+Ideally, the Roomba would be independent, meaning it could rely on an internal battery for power and didnt need external physical connections, and would only rely on an xbox controller for input.
 
 ## Setup
 The following are some of the items that were used for this project:
