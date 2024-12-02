@@ -1,5 +1,5 @@
 # RaspberryPiRoomba
-Modifid Roomba controlled by a Raspberry Pi mounted inside. The Pi was able to read from the bumper sensors, play audio, connect via bluetooth to an xbox controller, use the controller input to activate the motors, and more!
+A modified Roomba controlled by a Raspberry Pi and supporting hardware mounted inside. The Pi was able to read from the bumper sensors, play audio, connect via bluetooth to an xbox controller, use the controller input to activate the motors, and more!
 
 Several breadboards, voltage regulators, batteries, and other items were used so the roomba could operate as an independent system (no external physical connections needed). Several modifications were also done to the roomba and its motors/sensors so the Pi could interface with them.  
 
@@ -43,7 +43,7 @@ The code that ran on the Pi is present in this GitHub repo. A class based, objec
 
 A high level overview of the code is shown in the following:
 
-#### Libraries directory
+#### Libraries Directory
 - Contains all the primary classes that are used.
 - The three "Manager" classes are designed to be responsible for one specific functionality on the roomba, to keep it organized and allow other code to easily access that functionality. These include:
    - AudioManager: Handles organizing the audio files, setting up the audio drivers, and playing audio.
@@ -53,11 +53,11 @@ A high level overview of the code is shown in the following:
   - RoombaMotion: Takes the controller input and based on the left analog stick's values, controls the two wheel motors to drive the roomba in a specific direction.
   - RoombaBumper: Reads the bumper sensor input and if a hit is detected, play a random sound.
 
-#### Tests directory
+#### Tests Directory
 - Contains the tests that were used when updating the roomba software and hardware.
 - Some tests instantiate the classes so they can be tested for functionality, others initiate all modules directly so they can be used as sanity checks if the classes stop working.
 
-#### Audio directory
+#### Audio Directory
 - Contains the audio files, need to be in .wav format (original .mp3 format files were left as backups).
 - The AudioManager class automatically scans this directory and compiles a dynamic list of all valid files on startup.
 
