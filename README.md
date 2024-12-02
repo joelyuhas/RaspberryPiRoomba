@@ -29,7 +29,7 @@ The following is a brief rundown of how the hardware was setup for this project.
 2. The old battery was replaced with a new battery.
 3. The Raspberry Pi, motor driver, and voltage regulators, were mounted in the cavity where the main roller brushes were previously located.
 4. The voltage regulator was used to step the battery voltage down from 14.8V to 5V so the Raspberry Pi, motor driver, and a few sensors could use it.
-5. The bumper IR sensors were connected to a bread board that was placed where the motherboard used to be in the roomba near the top.
+5. The bumper IR sensors were connected to a bread board that was placed where the motherboard used to be in the roomba.
    - To ensure the sensors worked, voltage dividing and pull down resistors were needed to interface with the IR sensors.
 6. Another voltae regulator was used to step down the Battery 14.8V to 9V for the wheel motors.
 7. The motor driver was connected to 9V voltage regulator and the wheel motors on the roomba.
