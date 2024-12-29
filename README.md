@@ -17,7 +17,7 @@ The following are some of the items that were used for this project:
 - Roomba 610 model (broken motherboard, working motors and bumper sensors)
 - Replacement Roomba battery
 - Raspberry Pi
-- LM2596 DC to DC Voltage Regulator (x2) 
+- LM2596 DC to DC Voltage Regulator
 - L298N Motor Driver
 - Mini battery powered speaker
 
@@ -33,8 +33,8 @@ The following is a brief rundown of how the hardware was setup for this project.
 4. The voltage regulator was used to step the battery voltage down from 14.8V to 5V so the Raspberry Pi, motor driver, and a few sensors could use it.
 5. The bumper IR sensors were connected to a bread board that was placed where the motherboard used to be in the roomba.
    - To ensure the sensors worked, voltage dividing and pull down resistors were needed to interface with the IR sensors.
-6. Another voltae regulator was used to step down the Battery 14.8V to 9V for the wheel motors.
-7. The motor driver was connected to 9V voltage regulator and the wheel motors on the roomba.
+6. The motor controller was connected directly to the 14.8V battery terminal, and the motor controller control interface was connected to the 5V port.
+   - The motor controller had two V inputs, one for the motor driver (14.8V) and one for the control logic (5V).
    - The ports to the wheel motors had to be modified so that clean connections could be made to just the positive and negative terminals.   
 8. The bread board for the bumper sensors, as well as the motor driver and command signals were all linked to the Pi's GPIO pins.
 9. A small, battery powered speaker was mounted in the Roomba dust bin cavity and connected to the Pi via an aux cable.
