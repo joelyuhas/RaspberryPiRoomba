@@ -7,6 +7,8 @@ This project was a fantastic learning experience using software development, ele
 
 Originally created April 2024. Work still on-going.
 
+For a more detailed writeup, see the documents/RaspberryPiRoomba_Report.pdf.
+
 ## Objective
 The objective of this project was to take an old, Roomba 610 model with a broken motherboad, find a way to put a Raspberry Pi inside it, and use the Pi to control the Roomba. 
 
@@ -70,4 +72,3 @@ A high level overview of the code is shown in the following:
 ## Future Updates
 Several future updates are planned, as well as a few improvements that will be done to make the code even more scaleable and compartmentalized.
 
-A more detailed writeup in PDF format coming soon!
